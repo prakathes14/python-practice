@@ -1,0 +1,11 @@
+n=input()
+numcount=alphacount=False
+for i in n:
+  if i.isalpha():
+    alphacount=True
+  elif i.isdigit:
+    numcount=True
+if alphacount and numcount:
+  print("true")
+else:
+  ("false")

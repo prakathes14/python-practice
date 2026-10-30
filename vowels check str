@@ -1,0 +1,6 @@
+n=input()
+vow="aeiouAEIOU"
+for char in n:
+  if char in vow:
+    n=n.replace(char,"")
+print(n)

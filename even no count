@@ -1,0 +1,9 @@
+n = int(input())
+sumeven=0
+while n>0:
+    digit=n%10
+    if digit%2==0:
+        sumeven+=digit
+    n//=10
+
+print(sumeven)

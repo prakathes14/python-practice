@@ -1,0 +1,18 @@
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+average=(a+b+c+d+e)/5
+if average >= 90:
+    print("Excellent!")
+elif average >= 80:
+    print("Great Job!")
+elif average >= 70:
+    print("Good Effort!")
+elif average >= 50:
+    print("Keep Trying!")
+elif average <50:
+  print( "Better Luck Next Time!")
+else:
+  print("invalid")

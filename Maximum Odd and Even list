@@ -1,0 +1,19 @@
+import sys
+n=int(input())
+a=tuple(map(int,input().split()))
+evenmax=oddmax=-sys.maxsize-1
+for i in a:
+  if i %2==0:
+    if i>evenmax:
+      evenmax=i
+  else:
+    if i>oddmax:
+      oddmax=i
+if evenmax==-sys.maxsize-1:
+  print("None")
+else:
+  print(evenmax)
+if oddmax==-sys.maxsize-1:
+  print("None")
+else:
+  print(oddmax)

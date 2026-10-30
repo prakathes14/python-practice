@@ -1,0 +1,16 @@
+
+seat = int(input())
+position = seat % 8
+
+if position==1 or position==4:
+    print("LB")
+elif position ==2 or position==5:
+    print("MB")
+elif position==3 or position==6:
+    print("UB")
+elif position==7:
+    print("SL")
+elif position==0:
+    print("SU")
+else:
+    print("Invalid seat number")

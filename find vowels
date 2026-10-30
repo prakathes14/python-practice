@@ -1,0 +1,8 @@
+ch=input()
+
+if ch.lower() in 'aeiou' and len(ch) == 1:
+    print("vowel")
+elif ch.isalpha() and len(ch) == 1:
+    print("consonant")
+else:
+    print("invalid")

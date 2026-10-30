@@ -1,0 +1,11 @@
+name=input()
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=int(input())
+total=b+c+d+e+f
+average=total/5
+print("Student Name:",name)
+print("Total Marks:",total)
+print("Average Marks: %.2f"%average)

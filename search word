@@ -1,0 +1,7 @@
+string =input()
+word=input()
+
+if word in string:
+    print("true")
+else:
+    print("false")

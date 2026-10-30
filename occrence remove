@@ -1,0 +1,4 @@
+string=input()
+char=input()
+result=string.replace(char, "")
+print(result)
